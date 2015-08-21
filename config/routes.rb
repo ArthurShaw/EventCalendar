@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :meetings, :users
-  root '/meetings#index'
+  root 'meetings#index'
   get '/signup' => 'users#new'
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'

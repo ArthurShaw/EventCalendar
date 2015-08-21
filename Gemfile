@@ -51,5 +51,6 @@ group :development, :test do
   gem 'rspec-context-private'
   gem 'rspec-html-matchers'
   gem 'rails_12factor', group: :production
+  gem 'actionpack', "~> 4.2.1"
 end
 
