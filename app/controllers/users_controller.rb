@@ -19,7 +19,7 @@ class UsersController < ApplicationController
       session[:user_id] = @user.id
       redirect_to root_url
     else
-      redirect_to '/signup'
+      redirect_to 'signup'
     end
   end
 
